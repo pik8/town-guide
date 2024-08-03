@@ -36,6 +36,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "ts.external.directory.path": "/Users/anamargaridapicoito/Documents/Development/town-guide/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
@@ -43,9 +44,12 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/pages" />
+      <recent name="$PROJECT_DIR$/src/components" />
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/public/icons" />
     </key>
@@ -58,7 +62,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1722693851588</updated>
-      <workItem from="1722693852903" duration="6542000" />
+      <workItem from="1722693852903" duration="9622000" />
     </task>
     <servers />
   </component>

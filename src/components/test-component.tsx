@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { Button } from '@mui/base/Button';
 
 export default function Home() {
