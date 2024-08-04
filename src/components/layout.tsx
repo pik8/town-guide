@@ -2,7 +2,7 @@ import "../app/globals.css";
 import Navigation from "@/components/navigation";
 import { useRouter } from "next/router";
 
-export default function Layout({ children }) {
+export default function Layout({ children }: any) {
     const router = useRouter();
 
     return (
