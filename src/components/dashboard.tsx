@@ -1,44 +1,28 @@
+import { LuWaves, LuCalendarDays } from "react-icons/lu";
+import DynamicIcon from "@/components/dynamic-icon";
+import { MdOutlinePhotoSizeSelectActual } from "react-icons/md";
+
 export default function Dashboard() {
     return (
-        <div className="flex flex-wrap">
-            <div className="w-1/4 p-1">
+        <div className="flex space-x-4">
+            <div className="w-1/4">
                 <div className="flex items-center justify-center h-64 min-h-full max-w-xs overflow-hidden rounded-md shadow-md bg-gray-100">
-                    Weather
+                    <DynamicIcon iconName={'sunny'} size={100} />
                 </div>
             </div>
-            <div className="w-1/4 p-1">
+            <div className="w-1/4">
                 <div className="flex items-center justify-center h-64 max-w-xs overflow-hidden rounded-md shadow-md bg-gray-100">
-                    Tide
+                    <LuWaves size={100} />
                 </div>
             </div>
-            <div className="w-1/4 p-1">
+            <div className="w-1/4">
                 <div className="flex items-center justify-center h-64 max-w-xs overflow-hidden rounded-md shadow-md bg-gray-100">
-                    Photos
+                    <MdOutlinePhotoSizeSelectActual size={100} />
                 </div>
             </div>
-            <div className="w-1/4 p-1">
+            <div className="w-1/4">
                 <div className="flex items-center justify-center h-64 max-w-xs overflow-hidden rounded-md shadow-md bg-gray-100">
-                    Event Calendar
-                </div>
-            </div>
-            <div className="w-1/4 p-1">
-                <div className="flex items-center justify-center h-64 max-w-xs overflow-hidden rounded-md shadow-md bg-gray-100">
-                    Something 1
-                </div>
-            </div>
-            <div className="w-1/4 p-1">
-                <div className="flex items-center justify-center h-64 max-w-xs overflow-hidden rounded-md shadow-md bg-gray-100">
-                    Something 2
-                </div>
-            </div>
-            <div className="w-1/4 p-1">
-                <div className="flex items-center justify-center h-64 max-w-xs overflow-hidden rounded-md shadow-md bg-gray-100">
-                    Something 3
-                </div>
-            </div>
-            <div className="w-1/4 p-1">
-                <div className="flex items-center justify-center h-64 max-w-xs overflow-hidden rounded-md shadow-md bg-gray-100">
-                    Settings
+                    <LuCalendarDays size={100} />
                 </div>
             </div>
         </div>

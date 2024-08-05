@@ -11,7 +11,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
 
     return (
         <main className="flex min-h-screen flex-col items-center justify-between p-16">
-            <button className="bg-white absolute top-18 left-16 flex shadow rounded-md p-1" type="button" onClick={() => router.back()}>
+            <button className="bg-white absolute top-18 left-16 flex shadow rounded-md p-2" type="button" onClick={() => router.back()}>
                 <IoMdArrowBack size={25} className="mr-1" /><span className="mr-1">Back</span>
             </button>
             <div className="w-full">

@@ -17,7 +17,7 @@ export default async function Home() {
     return (
         <main className="flex min-h-screen flex-col items-center justify-between p-16">
             <Welcome name={customers[0]?.name} />
-            <div className="w-full bg-white rounded-md shadow p-2" style={{ maxHeight: '68dvh', minHeight: '68dvh', overflowX: 'scroll' }}>
+            <div className="w-full bg-white rounded-md shadow px-3 py-2" style={{ maxHeight: '68dvh', minHeight: '68dvh', overflowX: 'scroll' }}>
                 <Dashboard />
             </div>
             <Navigation currentRoute="/" />
