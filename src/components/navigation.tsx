@@ -8,7 +8,7 @@ export default function Navigation(props: { currentRoute: string }) {
                 <label htmlFor="tabs" className="sr-only">Select a page</label>
                 <select id="tabs" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-md focus:ring-sky-100 focus:border-sky-100 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
                     <option>Home</option>
-                    <option>House Book</option>
+                    <option>Home Book</option>
                     <option>Fuzeta</option>
                     <option>Recommendations</option>
                     <option>Events</option>
@@ -27,10 +27,10 @@ export default function Navigation(props: { currentRoute: string }) {
                 </li>
                 <li className="w-full focus-within:z-10">
                     <Link
-                        href="/house-book"
-                        className={`${props.currentRoute === '/house-book' && 'bg-gray-100'} inline-block w-full p-4 border-r border-gray-200 dark:border-gray-700 hover:text-gray-700 hover:bg-gray-50 focus:ring focus:ring-sky-100 focus:outline-none dark:hover:text-white dark:bg-gray-800 dark:hover:bg-gray-700`}
+                        href="/home-book"
+                        className={`${props.currentRoute === '/home-book' && 'bg-gray-100'} inline-block w-full p-4 border-r border-gray-200 dark:border-gray-700 hover:text-gray-700 hover:bg-gray-50 focus:ring focus:ring-sky-100 focus:outline-none dark:hover:text-white dark:bg-gray-800 dark:hover:bg-gray-700`}
                     >
-                        House Book
+                        Home Book
                     </Link>
                 </li>
                 <li className="w-full focus-within:z-10">

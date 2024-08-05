@@ -2,8 +2,7 @@ import Image from 'next/image';
 
 export default function About() {
     return (
-        <div className="bg-white rounded-md shadow p-4" style={{ maxHeight: '75dvh', overflowY: 'scroll' }}>
-            <h1 className="text-2xl text-gray-700 text-center mb-4">Fuzeta</h1>
+        <>
             <div>
                 A Fuseta é uma freguesia do Concelho de Olhão localizada no litoral do sotavento algarvio, distrito de
                 Faro. Apresenta uma área de 0,36 quilómetros quadrados e está limitada a norte e a oeste pela
@@ -33,6 +32,6 @@ export default function About() {
             />
             <h1>The Owners of this house</h1>
             <div>Pics and Gon</div>
-        </div>
+        </>
     );
 }
