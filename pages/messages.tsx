@@ -5,7 +5,6 @@ import { Contact, ContactsResponse } from "@/types/types";
 import Image from 'next/image';
 
 export default function Messages({ contacts }: { contacts: Contact[] }) {
-    console.log(contacts);
     return (
         <>
             <h1 className="text-2xl text-gray-700 text-center mb-4">Feature is not available yet</h1>
